@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.skai" name="SKAI TV" version="1.2.6" provider-name="Omega">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="2.9.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">SKAI TV</summary>
+    <description lang="en">SKAI TV (Greek News Channel)</description>
+    <disclaimer>Some parts of this addon may not be legal in your country of
+    residence. Please check with your local laws before installing.</disclaimer>
+    <source>https://github.com/GODoal/omega-addons/plugin.video.skai</source>
+  </extension>
+</addon>
+
+<addon id="repository.omega" name="OMEGA Add-on repository" version="1.0.0" provider-name="Omega">
+    <extension point="xbmc.addon.repository" name="OMEGA Add-on repository">
+        <info compressed="false">https://raw.githubusercontent.com/GODoal/omega-repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/GODoal/omega-repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/GODoal/omega-repo/master</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Install Add-ons from Omega</summary>
+        <description lang="en">Download and install add-ons from the Omega repository.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.audio.skai" name="SKAI RADIO" version="1.0.1" provider-name="Omega">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">SKAI RADIO</summary>
+    <description lang="en">SKAI RADIO (Greek News Channel)</description>
+    <disclaimer>Some parts of this addon may not be legal in your country of
+    residence. Please check with your local laws before installing.</disclaimer>
+    <source>https://github.com/GODoal/omega-addons/plugin.audio.skai</source>
+  </extension>
+</addon>
+</addons>

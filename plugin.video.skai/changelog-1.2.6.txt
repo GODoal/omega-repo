@@ -1,0 +1,116 @@
+version 1.2.6
+ - Modified to work with latest web site changes
+
+version 1.2.5
+ - Modified to work with latest web site changes
+ - Removed obsolete settings
+
+version 1.2.4
+ - Allow parsing of YT pre-recorded streams
+
+version 1.2.3
+ - Allow parsing of non-YT live stream when available
+
+version 1.2.2
+ - Fix YouTube ID parsing
+
+version 1.2.1
+ - Dynamic extraction of iPhone stream 
+
+version 1.2.0
+ - Filter out class tags which recently appear in our category listing   
+
+version 1.1.9
+ - Filter out user login tag which recently appear in our category listing   
+ - Change User Agent string to XBMC Multimedia System (let the world feel the
+   power of XBMC :))
+
+version 1.1.8
+ - Fix iPhone direct link given the opportunity of the YT feed being problematic
+
+version 1.1.7
+ - Fix bug where cooking category was not listed in main window
+
+version 1.1.6
+ - Add fanart on listings
+ - Add setting to display "Back" as listing in categories. (For those users 
+   having "Show parent folder items" option disabled)
+
+version 1.1.5
+ - Restore iPhone link (manageable in Settings) to aid in the event where the 
+   XBMC YouTube addon is on maintenance stage
+
+version 1.1.4
+ - Re-write of addon due to major changes on www.skai.gr/player/tv and 
+   www.skai.gr/player/tvlive web site
+ - Removed obsolete iPhone setting
+ - Removed obsolete Lazy Image Retrieval setting
+ - Add setting (enabled by default) to enable listing of streams directly 
+   under their home category instead of their individual folders
+ - Fixed pagination bug to display previous page when on the last page
+ - Removed obsolete icons
+
+version 1.1.3
+ - Add pagination support on TV Video/TV Archives category contents to enable
+   more efficient and fast link retrieval
+
+version 1.1.2
+ - Sync addon to the latest Youtube Live stream source code modifications that were 
+   put in place recently as part of their migration to YouTube
+ - Added option in settings to link directly to the SKAI.gr YouTube feed by 
+   manually setting its' video ID. The feed become accessible under "TV Now"
+
+version 1.1.1
+ - Remove obsolete kanalia.eu stream since SKAI moved their live stream to YouTube
+ - Added iPhone live stream option which can be enabled via Settings
+ - Added YouTube Live stream in place of the old official www.skai.gr/player/tvlive 
+   video stream
+ - Sync addon to the latest on-demand stream source code modifications that were 
+   put in place recently as part of their migration to YouTube
+
+version 1.1.0
+ - Add option in settings to enable additional entry under "TV Now" with 
+   alternative live stream feed (served by www.kanalia.eu)
+ - Move static thumbnails to generic image path 
+
+version 1.0.9
+ - Implement option to invoke the Settings menu from within the Addon
+ - Allow setup of the socket connection timeout in settings
+ - Clean-up debug output
+
+version 1.0.8
+ - Sync version to the latest skai.gr web site changes; The episode thumbnail
+   is not visible under each video link section
+
+version 1.0.7
+ - Sync version due to recent make up of the web site
+   IMO it kind of look better than before, check it 
+   out @ http://www.skai.gr/player/tvlive/ if interested
+
+version 1.0.6
+ - Full category listing under 'TV Archives'
+ - Implement add-on settings page
+ - Enable lazy mode thumbnail retrieval on 'TV Archives' menus
+ - Implement settings/strings xml definitions
+
+Version 1.0.5
+ - Addition of TV Archive category
+ - Fixed image display on folder listing
+
+Version 1.0.4
+ - Use generic string for LIVE streaming video
+
+Version 1.0.3
+ - Attach GPLv3 License statement on default.py
+ - Add GPL License file in package
+ - Add disclaimer note in addon.xml, just in case. :)
+
+Version 1.0.2
+ - Add category icons
+ - Add new plugin logo
+
+Version 1.0.1
+ - Modify videolink formating due to web-page changes
+
+Version 1.0.0:
+ - Initial version
