@@ -31,7 +31,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.audio.skai" name="SKAI RADIO" version="1.0.1" provider-name="Omega">
+<addon id="plugin.audio.skai" name="SKAI RADIO" version="1.0.2" provider-name="Omega">
   <requires>
         <import addon="xbmc.python" version="2.1.0"/>
   </requires>

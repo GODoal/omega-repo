@@ -1,0 +1,11 @@
+version 1.0.2
+ - Fixed some episode listing issues
+ - Implemented "Lazy Listing" setting where additional episode streams
+   are constructed programmatically rather than scraped
+ - Implemented non-Lazy episode stream retrieval (default)
+
+version 1.0.1
+ - Modified to work with latest web site changes
+
+version 1.0.0
+ - Initial version
