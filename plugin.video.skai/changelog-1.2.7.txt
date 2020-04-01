@@ -1,3 +1,6 @@
+version 1.2.7
+ - Modified to parse YT live stream
+
 version 1.2.6
  - Modified to work with latest web site changes
 
