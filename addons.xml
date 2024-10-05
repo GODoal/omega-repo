@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.skai" name="SKAI TV" version="1.3.0" provider-name="Omega">
+<addon id="plugin.video.skai" name="SKAI TV" version="1.3.1" provider-name="Omega">
   <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="plugin.video.youtube" version="7.0.6.3"/>
+        <import addon="xbmc.addon" version="12.0.0"/>>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -14,26 +15,39 @@
     <description lang="en">SKAI TV (Greek News Channel)</description>
     <disclaimer>Some parts of this addon may not be legal in your country of
     residence. Please check with your local laws before installing.</disclaimer>
+    <assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
     <source>https://github.com/GODoal/omega-addons/plugin.video.skai</source>
   </extension>
 </addon>
 
-<addon id="repository.omega" name="OMEGA Add-on repository" version="1.0.0" provider-name="Omega">
+<addon id="repository.omega" name="OMEGA Add-on repository" version="1.1.0" provider-name="Omega">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
     <extension point="xbmc.addon.repository" name="OMEGA Add-on repository">
+      <dir minversion="18.9.1">
         <info compressed="false">https://raw.githubusercontent.com/GODoal/omega-repo/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/GODoal/omega-repo/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/GODoal/omega-repo/master</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Install Add-ons from Omega</summary>
         <description lang="en">Download and install add-ons from the Omega repository.</description>
         <platform>all</platform>
+        <assets>
+           <icon>icon.png</icon>
+        </assets>
     </extension>
 </addon>
 
-<addon id="plugin.audio.skai" name="SKAI RADIO" version="1.1.0" provider-name="Omega">
+<addon id="plugin.audio.skai" name="SKAI RADIO" version="1.1.1" provider-name="Omega">
   <requires>
         <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>audio</provides>
@@ -44,6 +58,10 @@
     <description lang="en">SKAI RADIO (Greek News Channel)</description>
     <disclaimer>Some parts of this addon may not be legal in your country of
     residence. Please check with your local laws before installing.</disclaimer>
+    <assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
     <source>https://github.com/GODoal/omega-addons/plugin.audio.skai</source>
   </extension>
 </addon>
